@@ -221,7 +221,7 @@
 				TargetAttributes = {
 					0A16134F1A49AF0E00A242BE = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = 867TWH889A;
+						DevelopmentTeam = A2GRYGLS5B;
 					};
 					0A1613681A49AF0F00A242BE = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -402,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = A2GRYGLS5B;
 				INFOPLIST_FILE = ToDo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "crashcode.$(PRODUCT_NAME:rfc1034identifier)";
@@ -414,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				DEVELOPMENT_TEAM = A2GRYGLS5B;
 				INFOPLIST_FILE = ToDo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "crashcode.$(PRODUCT_NAME:rfc1034identifier)";
