@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		0A1613561A49AF0E00A242BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1613551A49AF0E00A242BE /* main.m */; };
 		0A1613591A49AF0E00A242BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1613581A49AF0E00A242BE /* AppDelegate.m */; };
-		0A16135C1A49AF0E00A242BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A16135B1A49AF0E00A242BE /* ViewController.m */; };
+		0A16135C1A49AF0E00A242BE /* ProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A16135B1A49AF0E00A242BE /* ProjectViewController.m */; };
 		0A16135F1A49AF0E00A242BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A16135D1A49AF0E00A242BE /* Main.storyboard */; };
 		0A1613611A49AF0E00A242BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1613601A49AF0E00A242BE /* Images.xcassets */; };
-		0A1613641A49AF0E00A242BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A1613621A49AF0E00A242BE /* LaunchScreen.xib */; };
 		0A1613701A49AF0F00A242BE /* ToDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A16136F1A49AF0F00A242BE /* ToDoTests.m */; };
+		0A16137F1A49B02F00A242BE /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A16137E1A49B02F00A242BE /* NavigationViewController.m */; };
+		0A1613821A49B13700A242BE /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1613811A49B13700A242BE /* CustomCell.m */; };
+		0A1613851A49BAA700A242BE /* ProjectStepsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1613841A49BAA700A242BE /* ProjectStepsViewController.m */; };
+		0A16138A1A49BDC300A242BE /* InformationClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1613891A49BDC300A242BE /* InformationClass.m */; };
+		0A56758C1A4ABCDE007A13AD /* AddProjectStepsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A56758B1A4ABCDE007A13AD /* AddProjectStepsViewController.m */; };
+		0A8557811A4A2861006FF834 /* AddProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8557801A4A2861006FF834 /* AddProjectViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,26 @@
 		0A1613551A49AF0E00A242BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A1613571A49AF0E00A242BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A1613581A49AF0E00A242BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0A16135A1A49AF0E00A242BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0A16135B1A49AF0E00A242BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A16135A1A49AF0E00A242BE /* ProjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectViewController.h; sourceTree = "<group>"; };
+		0A16135B1A49AF0E00A242BE /* ProjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectViewController.m; sourceTree = "<group>"; };
 		0A16135E1A49AF0E00A242BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A1613601A49AF0E00A242BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0A1613631A49AF0E00A242BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0A1613691A49AF0F00A242BE /* ToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A16136E1A49AF0F00A242BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A16136F1A49AF0F00A242BE /* ToDoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoTests.m; sourceTree = "<group>"; };
+		0A16137D1A49B02F00A242BE /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		0A16137E1A49B02F00A242BE /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		0A1613801A49B13700A242BE /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		0A1613811A49B13700A242BE /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		0A1613831A49BAA700A242BE /* ProjectStepsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectStepsViewController.h; sourceTree = "<group>"; };
+		0A1613841A49BAA700A242BE /* ProjectStepsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectStepsViewController.m; sourceTree = "<group>"; };
+		0A1613881A49BDC300A242BE /* InformationClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationClass.h; sourceTree = "<group>"; };
+		0A1613891A49BDC300A242BE /* InformationClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationClass.m; sourceTree = "<group>"; };
+		0A56758A1A4ABCDE007A13AD /* AddProjectStepsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddProjectStepsViewController.h; sourceTree = "<group>"; };
+		0A56758B1A4ABCDE007A13AD /* AddProjectStepsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddProjectStepsViewController.m; sourceTree = "<group>"; };
+		0A85577F1A4A2861006FF834 /* AddProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddProjectViewController.h; sourceTree = "<group>"; };
+		0A8557801A4A2861006FF834 /* AddProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddProjectViewController.m; sourceTree = "<group>"; };
+		0ACEC2171A4A4E41000EED64 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +100,16 @@
 			children = (
 				0A1613571A49AF0E00A242BE /* AppDelegate.h */,
 				0A1613581A49AF0E00A242BE /* AppDelegate.m */,
-				0A16135A1A49AF0E00A242BE /* ViewController.h */,
-				0A16135B1A49AF0E00A242BE /* ViewController.m */,
+				0ACEC2171A4A4E41000EED64 /* Constants.h */,
+				0A16137D1A49B02F00A242BE /* NavigationViewController.h */,
+				0A16137E1A49B02F00A242BE /* NavigationViewController.m */,
+				0A1613881A49BDC300A242BE /* InformationClass.h */,
+				0A1613891A49BDC300A242BE /* InformationClass.m */,
+				0A757F991A4EF4540082938F /* CustomCell */,
+				0A1613861A49BAC500A242BE /* Project */,
+				0A1613871A49BACD00A242BE /* Project Steps */,
 				0A16135D1A49AF0E00A242BE /* Main.storyboard */,
 				0A1613601A49AF0E00A242BE /* Images.xcassets */,
-				0A1613621A49AF0E00A242BE /* LaunchScreen.xib */,
 				0A1613531A49AF0E00A242BE /* Supporting Files */,
 			);
 			path = ToDo;
@@ -117,6 +139,37 @@
 				0A16136E1A49AF0F00A242BE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A1613861A49BAC500A242BE /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				0A16135A1A49AF0E00A242BE /* ProjectViewController.h */,
+				0A16135B1A49AF0E00A242BE /* ProjectViewController.m */,
+				0A85577F1A4A2861006FF834 /* AddProjectViewController.h */,
+				0A8557801A4A2861006FF834 /* AddProjectViewController.m */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		0A1613871A49BACD00A242BE /* Project Steps */ = {
+			isa = PBXGroup;
+			children = (
+				0A1613831A49BAA700A242BE /* ProjectStepsViewController.h */,
+				0A1613841A49BAA700A242BE /* ProjectStepsViewController.m */,
+				0A56758A1A4ABCDE007A13AD /* AddProjectStepsViewController.h */,
+				0A56758B1A4ABCDE007A13AD /* AddProjectStepsViewController.m */,
+			);
+			name = "Project Steps";
+			sourceTree = "<group>";
+		};
+		0A757F991A4EF4540082938F /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				0A1613801A49B13700A242BE /* CustomCell.h */,
+				0A1613811A49B13700A242BE /* CustomCell.m */,
+			);
+			name = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,11 +216,12 @@
 		0A1613481A49AF0E00A242BE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Matti Muehlemann";
 				TargetAttributes = {
 					0A16134F1A49AF0E00A242BE = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 867TWH889A;
 					};
 					0A1613681A49AF0F00A242BE = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -200,7 +254,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A16135F1A49AF0E00A242BE /* Main.storyboard in Resources */,
-				0A1613641A49AF0E00A242BE /* LaunchScreen.xib in Resources */,
 				0A1613611A49AF0E00A242BE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +272,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A16135C1A49AF0E00A242BE /* ViewController.m in Sources */,
+				0A16137F1A49B02F00A242BE /* NavigationViewController.m in Sources */,
+				0A16135C1A49AF0E00A242BE /* ProjectViewController.m in Sources */,
 				0A1613591A49AF0E00A242BE /* AppDelegate.m in Sources */,
+				0A56758C1A4ABCDE007A13AD /* AddProjectStepsViewController.m in Sources */,
 				0A1613561A49AF0E00A242BE /* main.m in Sources */,
+				0A8557811A4A2861006FF834 /* AddProjectViewController.m in Sources */,
+				0A1613851A49BAA700A242BE /* ProjectStepsViewController.m in Sources */,
+				0A16138A1A49BDC300A242BE /* InformationClass.m in Sources */,
+				0A1613821A49B13700A242BE /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,14 +311,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0A1613621A49AF0E00A242BE /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A1613631A49AF0E00A242BE /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -276,15 +327,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -317,8 +372,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -326,6 +383,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -343,8 +401,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ToDo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "crashcode.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -353,8 +413,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = ToDo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "crashcode.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -373,6 +435,7 @@
 				);
 				INFOPLIST_FILE = ToDoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "crashcode.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDo.app/ToDo";
 			};
@@ -388,6 +451,7 @@
 				);
 				INFOPLIST_FILE = ToDoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "crashcode.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDo.app/ToDo";
 			};
@@ -412,6 +476,7 @@
 				0A1613751A49AF0F00A242BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A1613761A49AF0F00A242BE /* Build configuration list for PBXNativeTarget "ToDoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +485,7 @@
 				0A1613781A49AF0F00A242BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
